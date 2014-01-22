@@ -1,0 +1,23 @@
+{
+  "name": "get-latest-pod",
+  "version": "0.0.0",
+  "description": "Fetchs latest podcast audio file from a feed",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "podcast"
+  ],
+  "author": "Mild Fuzz",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "parse-rss": "~0.1.1",
+    "underscore": "~1.5.2",
+    "json": "0.0.14",
+    "download": "~0.1.9"
+  },
+  "devDependencies": {
+    "debug-live": "~0.1.1"
+  }
+}
