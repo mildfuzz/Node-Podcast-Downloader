@@ -19,15 +19,24 @@ function checkModeAndStartDownload(data, sub) {
     }
 }
 
+function onFinish() {
+    console.log('Download Finished ' + this.title + ', Ep:' + this.ep);
+}
+
 function downloadPost(post, path) {
+    var dl;
     console.log('Downloading ' + post.title + ', Ep:' + post.url);
     try {
-        download(post.url, path);
+        dl = download(post.url, path);
+        dl.title = post.title;
+        dl.ep = post.url;
     }
     catch (e) {
         console.log('Download Failed: ' + post.title);
         console.log(e);
     }
+
+    dl.once('close', onFinish);
 }
 
 
