@@ -2,7 +2,7 @@
     "subscriptions": [
         {
           "title": "Mindfulness Series",
-          "path": "PodCastAudio/1_mindseries",
+          "path": "PodCastAudio/aa_mindseries",
           "url": "http://www.theguardian.com/lifeandstyle/series/headspace/rss",
           "mode": "all"
         },{
@@ -16,16 +16,6 @@
             "url": "http://downloads.bbc.co.uk/podcasts/fivelive/kermode/rss.xml",
             "mode": "latest"
         },{
-            "title": "Football Ramble",
-            "path": "PodCastAudio/footballramble",
-            "url": "http://footballramble.libsyn.com/rss",
-            "mode": "latest"
-        },{
-            "title": "The Dev Show",
-            "path": "PodCastAudio/devshow",
-            "url": "http://feeds.feedburner.com/thedevshow?format=xml",
-            "mode": "latest"
-        },{
             "title": "Changelog",
             "path": "PodCastAudio/changelog",
             "url": "http://feeds.5by5.tv/changelog",
@@ -36,29 +26,19 @@
             "url": "http://feeds.feedburner.com/CSS-Tricks-Screencasts?format=xml",
             "mode": "latest"
         },{
-          "title": "In Beta",
-          "path": "PodCastAudio/inbeta",
-          "url": "http://feeds.5by5.tv/inbeta",
+          "title": "TEDTalks",
+          "path": "PodCastAudio/tedtalks",
+          "url": "http://feeds.feedburner.com/TEDTalks_audio",
           "mode": "latest"
         },{
-          "title": "Pipeline",
-          "path": "PodCastAudio/pipeline",
-          "url": "http://feeds.5by5.tv/pipeline",
+          "title": "Inside Science",
+          "path": "PodCastAudio/insidescience",
+          "url": "http://downloads.bbc.co.uk/podcasts/radio4/inscience/rss.xml",
           "mode": "latest"
         },{
-          "title": "Systemic",
-          "path": "PodCastAudio/systemic",
-          "url": "http://feeds.5by5.tv/systematic",
-          "mode": "latest"
-        },{
-          "title": "Web Ahead",
-          "path": "PodCastAudio/webahead",
-          "url": "http://feeds.5by5.tv/webahead",
-          "mode": "latest"
-        },{
-          "title": "Shop Talk Show",
-          "path": "PodCastAudio/shoptalkshow",
-          "url": "http://shoptalkshow.com/feed/podcast/",
+          "title": "Node Up",
+          "path": "PodCastAudio/nodeup",
+          "url": "http://feeds.feedburner.com/NodeUp",
           "mode": "latest"
         }  
     ]

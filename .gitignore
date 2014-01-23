@@ -3,3 +3,4 @@ server.js
 *.todo
 PodcastAudio/*
 node_modules/*
+subscriptions.json
